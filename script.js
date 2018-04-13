@@ -24,7 +24,7 @@ function getRandomVisualization() {
 
 // new participant
 function refresh() {
-   document.getElementById("firstname").value = "";
+//    document.getElementById("firstname").value = "";
    var x = document.getElementById("surveys");
    if (x.style.display === "none") {
         //x.style.display = "block";
@@ -34,7 +34,7 @@ function refresh() {
     document.getElementById("demo").innerHTML = "";
     pages = [1,2,3,4,5,6,7,8];
 	threeRandomMembers = getRandomSubarray(pages, 3);
-	document.getElementById("demo").innerHTML = threeRandomMembers;
+	// document.getElementById("demo").innerHTML = threeRandomMembers;
 }
 
 // show buttons for survey after user clicks start
